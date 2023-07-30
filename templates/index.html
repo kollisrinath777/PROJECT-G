@@ -1,0 +1,344 @@
+{% load static %}
+{% static "img" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gardener</title>
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}" />
+
+
+
+</head>
+
+<body>
+	<section id="header">
+		<div class="header">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="{% static 'index.html' %}">ProjectG</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div>
+						<div class="header_2">
+							<ul class="nav navbar-nav navbar-center">
+								<li class="hidden">
+									<a href="{% static '#page-top' %}"></a>
+								</li>
+								<li>
+									<a class="page-scroll active clearfix" href="{% static 'index.html' %}">HOME</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="raksee/about">ABOUT</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="raksee/register">SIGN UP</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="raksee/gallery">GALLERY</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="raksee/contact">CONTACT</a>
+								</li>
+							</ul>
+						</div>
+						<div class="header_3">
+							<ul class="navbar-right">
+								<li><a href="{% static '#' %}"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="{% static '#' %}"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="{% static '#' %}"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<section id="center">
+		<div class="center_main clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="center_1">
+							<h1 class="text-center">Gandlavedu Village<br />BY SRINATH KOLLI</h1>
+							<p class="text-center">Gandlavedu is a village located in SPSR Nellore ditrict which is in
+								ANdhra pradesh..it is the place where the guys are very inetereted in all the aspects..
+							</p>
+						</div>
+						<div class="center_2">
+							<p class="text-center"><a href="raksee/view">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 padding_all">
+					<div class="middle_main clearfix">
+						<div class="middle_1">
+							<h2 class="text-center">YUVASENA</h2>
+							<p class="text-center"> in my village YUVASENA is like a team that having all the youth
+								members of my village.YUVASENA plays a key role in the development of the village.it
+								started in the year 2010 and it still working on the beneficiary of the village..
+								<br />I am very happy to be part of YUVASENA. </p>
+						</div>
+						<div class="col-sm-3">
+							<div class="middle_2">
+								<div class="ih-item square effect11 left_to_right"><a href="#">
+										<div class="img"><img src="{% static 'img/baba.jpg' %}" width="100%" alt="img">
+										</div>
+										<div class="info">
+											<h3>Fusce Tellus</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+												odionec odio. Praesent libero.
+												Sed cursus ante dapibus diam. Sed nisi.</p>
+										</div>
+									</a></div>
+								<h4 class="text-center"><a href="{% static '#' %}">sai baba temple</a></h4>
+								<p class="text-center"></p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="middle_2">
+								<div class="card">
+									<div class="card-image">
+										<img class="img-responsive" src="{% static 'img/72.jpg' %}" width="100%">
+									</div><!-- card image -->
+									<!-- card content -->
+									<!-- card actions -->
+									<!-- card reveal -->
+								</div>
+								<h4 class="text-center"><a href="{% static '#' %}">gandlavedu map</a></h4>
+								<p class="text-center">showing the area with the fields and all..</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="middle_2">
+								<div class="ih-item square effect11 left_to_right"><a href="#">
+										<div class="img"><img src="{% static 'img/photo_2023-04-29_23-25-47.jpg' %}"
+												width="100%" alt="img"></div>
+										<div class="info">
+											<h3>Sociosqu Ad Torquent</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+												odionec odio. Praesent libero.
+												Sed cursus ante dapibus diam. Sed nisi.</p>
+										</div>
+									</a></div>
+								<h4 class="text-center"><a href="{% static '#' %}">ramaswami temple</a></h4>
+								<p class="text-center"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="our">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="our_main clearfix">
+						<div class="our_1">
+							<h1 class="text-center">Gandlavedu</h1>
+						</div>
+						{% for sri in sris %}
+						<div class="col-sm-4">
+							<div class="our_2">
+								<div class="ih-item square effect15 left_to_right"><a href="#">
+										<div class="img"><img src="{{baseUrl}}/{{sri.img}}" alt="img"></div>
+										<div class="info">
+											<h3>ProjectG</h3>
+											<p>kolli</p>
+										</div>
+									</a></div>
+								<h3 class="text-center"><a
+										href="{% static '#' %}">{{sri.name}}</a><br />{{sri.desc}}</a></h3>
+								<h2 class="text-center">{{sri.members}}</h2>
+								<p class="text-center">{{sri.age}}</p><br />{{sri.dest}}</p>
+							</div>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="from">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 padding_all">
+					<div class="from_inner clearfix">
+						<div class="from_1">
+							<h2 class="text-center">ABOUT AGRICULTURE IN VILLAGE</h2>
+						</div>
+						{% for giri in giris %}
+						<div class="col-sm-6 padding_all">
+							<div class="col-sm-12 padding_all">
+								<div class="col-sm-6 padding_all">
+									<div class="from_2">
+										<div class="ih-item square effect10 left_to_right"><a href="#">
+												<div class="img"><img src="{{baseUrl}}/{{giri.img}}" alt="img"></div>
+												<div class="info">
+													<h3>projectG</h3>
+													<p>KOLLI</p>
+												</div>
+											</a></div>
+									</div>
+								</div>
+								<div class="col-sm-6 padding_all">
+									<div class="from_3">
+										<h3>{{giri.name}} </h3>
+										<h6>{{giri.desc}}</h6>
+										<p>{{giri.acres}}</p>
+									</div>
+									<div class="from_4">
+										<p><a href="{% static '#' %}">Read More</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 padding_all">
+					<div class="footer_1">
+						<h1 class="text-center"><i class="fa fa-quote-left"></i></h1>
+						<p class="text-center">gandlvedu is the type of a village having the relations as old
+							villages.but also developed in the type of technology.mainly most of the houses having tvs
+							and fridges till now.but in the future days ac"s will also becomoe commmon in every
+							home.<br /> that's about my village...</p>
+					</div>
+					<div class="col-sm-4 padding_all">
+						<div class="col-sm-12 padding_all">
+
+
+							<div class="col-sm-6 padding_all">
+								<div class="footer_2">
+									<p><img src="{% static 'img/10.jpg' %}" width="85%" height="150px"></p>
+								</div>
+							</div>
+							<div class="col-sm-6 padding_all">
+								<div class="footer_2">
+									<p><img src="{% static 'img/1.jpg' %}" width="85%" height="150px"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 padding_all">
+						<div class="footer_3">
+							<p><img src="{% static 'img/14.jpg' %}" width="60%" height="220px"></p>
+						</div>
+					</div>
+					<div class="col-sm-4 padding_all">
+						<div class="col-sm-6 padding_all">
+							<div class="footer_2">
+								<p><img src="{% static 'img/12.jpg' %}" width="85%" height="150px"></p>
+							</div>
+						</div>
+						<div class="col-sm-6 padding_all">
+							<div class="footer_2">
+								<p><img src="{% static 'img/13.jpg' %}" width="85%" height="150px"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="store">
+		<div class="container">
+			<div class="row">
+				<div class="store_main clearfix">
+					<div class="col-sm-12">
+						<div class="store_1">
+							<h1 class="text-center">about my family</h1>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<div class="col-sm-3 left_1">
+							<div class="store_2">
+								<h5>KOLLI FAMILY</h5>
+								<ul>
+									<li><a href="{% static '#' %}">KOLLI NARASAIAH</a></li>
+									<li><a href="{% static '#' %}">KOLLI SRIHARI NAIDU</a></li>
+									<li><a href="{% static '#' %}">KOLLI VENKATA RAMAIAH</a></li>
+									<li><a href="{% static '#' %}">KOLLI SESHAMMA</a></li>
+									<li><a href="{% static '#' %}">KOLLI HAZARATHAIAH</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-3 left_1">
+							<div class="store_2">
+								<h5>DIYYALA FAMILY</h5>
+								<ul>
+									<li><a href="{% static '#' %}">RAMANAIAH</a></li>
+									<li><a href="{% static '#' %}">RAMAIAH</a></li>
+									<li><a href="{% static '#' %}">BAGYAMMA</a></li>
+									<li><a href="{% static '#' %}">VENKATA NARASAIAH</a></li>
+									<li><a href="{% static '#' %}">PULLAIAH</a></li>
+									<li><a href="{% static '#' %}">DRIVER THATHA</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-3 left_1">
+							<div class="store_2">
+								<h5>Consectetur Adipiscing</h5>
+								<ul>
+									<li>1234 Tellus Sed Augue ,</li>
+									<li>VA 32101, USA</li>
+									<li><a href="#">nfo@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-3 left_1">
+							<div class="store_2">
+								<h5>Augue Semper Porta</h5>
+								<ul>
+									<li> Class aptent taciti. -sociosqu</li>
+									<li>Sed dignissim lacinia -</li>
+									<li>1.20PM</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="footer_main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="footer_main_1">
+						<p class="text-center">© 2013 Your Website Name. All Rights Reserved. Design by<a
+								href="{% static 'http://www.TemplateOnWeb' %}"> Template On Web</a> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
